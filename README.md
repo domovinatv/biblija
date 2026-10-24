@@ -1,4 +1,16 @@
-# Biblija: hrvatska katolička Biblija u JSON-u
+# ⚠️ ARHIVIRANO — Projekt je preseljen na [`stepanic/biblija`](https://github.com/stepanic/biblija)
+
+> [!IMPORTANT]
+> **Ovaj repozitorij (`domovinatv/biblija`) je arhiviran kako bi se izbjeglo dupliciranje.**
+> Sav daljnji razvoj, kompletan deterministički JSON katalog (73 knjige, 1.329 poglavlja, 35.410 redaka s USFM kodovima i ispravljenim `errata.json`), **SQLite (FTS5)** baza podataka, cjeloviti **[Audit & Diff izvještaj](https://github.com/stepanic/biblija/blob/main/AUDIT.md)** te **Astro 5 + Cloudflare Workers/D1 web aplikacija (*Biblija kroz 365 dana*)** nalaze se u glavnom repozitoriju:
+>
+> ### 👉 **[https://github.com/stepanic/biblija](https://github.com/stepanic/biblija)**
+>
+> **Važna napomena o atribuciji izvora u ovom repozitoriju:** Unakrsnom stih-po-stih usporedbom u [`stepanic/biblija`](https://github.com/stepanic/biblija/blob/main/AUDIT.md) dokazano je da izvori `eBible.org (hrv_usfm)` i `CrossWire (CroSaric)` — koji su u međunarodnim bazama desetljećima označeni kao *„prijevod Ivana Ev. Šarića"* — zapravo sadrže stariju digitalizaciju **Zagrebačke Biblije (Kršćanska sadašnjost, 1968.)**, a ne Šarićev prijevod. Svi oštećeni stihovi iz oba izvora su unakrsno popravljeni i objedinjeni u **[`stepanic/biblija`](https://github.com/stepanic/biblija)**.
+
+---
+
+# Biblija: hrvatska katolička Biblija u JSON-u (Arhiva)
 
 Strukturirana, offline baza hrvatskog katoličkog prijevoda Svetoga pisma: knjiga, poglavlje i
 stih u običnim JSON datotekama, bez API-ja i bez baze podataka. Jedna datoteka po knjizi,
