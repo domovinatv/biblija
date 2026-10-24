@@ -1,0 +1,18 @@
+[
+  {
+    "book": "ESG",
+    "chapter": 1,
+    "v": 1,
+    "source_part": "a",
+    "part": "r",
+    "reason": "ponovljena oznaka dodatka u izvoru"
+  },
+  {
+    "book": "ESG",
+    "chapter": 3,
+    "v": 13,
+    "source_part": "a",
+    "part": "g",
+    "reason": "ponovljena oznaka dodatka u izvoru"
+  }
+]

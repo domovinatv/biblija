@@ -1,0 +1,664 @@
+{
+  "canon": "katolički, 73 knjige (KKC 120)",
+  "books": [
+    {
+      "id": "GEN",
+      "order": 1,
+      "testament": "OT",
+      "abbr": "Post",
+      "name": "Knjiga Postanka",
+      "name_en": "Genesis",
+      "deuterocanonical": false
+    },
+    {
+      "id": "EXO",
+      "order": 2,
+      "testament": "OT",
+      "abbr": "Izl",
+      "name": "Knjiga Izlaska",
+      "name_en": "Exodus",
+      "deuterocanonical": false
+    },
+    {
+      "id": "LEV",
+      "order": 3,
+      "testament": "OT",
+      "abbr": "Lev",
+      "name": "Levitski zakonik",
+      "name_en": "Leviticus",
+      "deuterocanonical": false
+    },
+    {
+      "id": "NUM",
+      "order": 4,
+      "testament": "OT",
+      "abbr": "Br",
+      "name": "Knjiga Brojeva",
+      "name_en": "Numbers",
+      "deuterocanonical": false
+    },
+    {
+      "id": "DEU",
+      "order": 5,
+      "testament": "OT",
+      "abbr": "Pnz",
+      "name": "Ponovljeni zakon",
+      "name_en": "Deuteronomy",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JOS",
+      "order": 6,
+      "testament": "OT",
+      "abbr": "Jš",
+      "name": "Jošua",
+      "name_en": "Joshua",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JDG",
+      "order": 7,
+      "testament": "OT",
+      "abbr": "Suci",
+      "name": "Knjiga o Sucima",
+      "name_en": "Judges",
+      "deuterocanonical": false
+    },
+    {
+      "id": "RUT",
+      "order": 8,
+      "testament": "OT",
+      "abbr": "Rut",
+      "name": "Knjiga o Ruti",
+      "name_en": "Ruth",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1SA",
+      "order": 9,
+      "testament": "OT",
+      "abbr": "1 Sam",
+      "name": "Prva knjiga o Samuelu",
+      "name_en": "1 Samuel",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2SA",
+      "order": 10,
+      "testament": "OT",
+      "abbr": "2 Sam",
+      "name": "Druga knjiga o Samuelu",
+      "name_en": "2 Samuel",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1KI",
+      "order": 11,
+      "testament": "OT",
+      "abbr": "1 Kr",
+      "name": "Prva knjiga o Kraljevima",
+      "name_en": "1 Kings",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2KI",
+      "order": 12,
+      "testament": "OT",
+      "abbr": "2 Kr",
+      "name": "Druga knjiga o Kraljevima",
+      "name_en": "2 Kings",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1CH",
+      "order": 13,
+      "testament": "OT",
+      "abbr": "1 Ljet",
+      "name": "Prva knjiga Ljetopisa",
+      "name_en": "1 Chronicles",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2CH",
+      "order": 14,
+      "testament": "OT",
+      "abbr": "2 Ljet",
+      "name": "Druga knjiga Ljetopisa",
+      "name_en": "2 Chronicles",
+      "deuterocanonical": false
+    },
+    {
+      "id": "EZR",
+      "order": 15,
+      "testament": "OT",
+      "abbr": "Ezr",
+      "name": "Ezra",
+      "name_en": "Ezra",
+      "deuterocanonical": false
+    },
+    {
+      "id": "NEH",
+      "order": 16,
+      "testament": "OT",
+      "abbr": "Neh",
+      "name": "Nehemija",
+      "name_en": "Nehemiah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "TOB",
+      "order": 17,
+      "testament": "OT",
+      "abbr": "Tob",
+      "name": "Tobija",
+      "name_en": "Tobit",
+      "deuterocanonical": true
+    },
+    {
+      "id": "JDT",
+      "order": 18,
+      "testament": "OT",
+      "abbr": "Jdt",
+      "name": "Judita",
+      "name_en": "Judith",
+      "deuterocanonical": true
+    },
+    {
+      "id": "EST",
+      "order": 19,
+      "testament": "OT",
+      "abbr": "Est",
+      "name": "Estera",
+      "name_en": "Esther",
+      "deuterocanonical": false,
+      "deuterocanonical_parts": "grčki dodaci A–F"
+    },
+    {
+      "id": "1MA",
+      "order": 20,
+      "testament": "OT",
+      "abbr": "1 Mak",
+      "name": "Prva knjiga o Makabejcima",
+      "name_en": "1 Maccabees",
+      "deuterocanonical": true
+    },
+    {
+      "id": "2MA",
+      "order": 21,
+      "testament": "OT",
+      "abbr": "2 Mak",
+      "name": "Druga knjiga o Makabejcima",
+      "name_en": "2 Maccabees",
+      "deuterocanonical": true
+    },
+    {
+      "id": "JOB",
+      "order": 22,
+      "testament": "OT",
+      "abbr": "Job",
+      "name": "Knjiga o Jobu",
+      "name_en": "Job",
+      "deuterocanonical": false
+    },
+    {
+      "id": "PSA",
+      "order": 23,
+      "testament": "OT",
+      "abbr": "Ps",
+      "name": "Psalmi",
+      "name_en": "Psalms",
+      "deuterocanonical": false
+    },
+    {
+      "id": "PRO",
+      "order": 24,
+      "testament": "OT",
+      "abbr": "Izr",
+      "name": "Mudre izreke",
+      "name_en": "Proverbs",
+      "deuterocanonical": false
+    },
+    {
+      "id": "ECC",
+      "order": 25,
+      "testament": "OT",
+      "abbr": "Prop",
+      "name": "Propovjednik",
+      "name_en": "Ecclesiastes",
+      "deuterocanonical": false
+    },
+    {
+      "id": "SNG",
+      "order": 26,
+      "testament": "OT",
+      "abbr": "Pj",
+      "name": "Pjesma nad pjesmama",
+      "name_en": "Song of Songs",
+      "deuterocanonical": false
+    },
+    {
+      "id": "WIS",
+      "order": 27,
+      "testament": "OT",
+      "abbr": "Mudr",
+      "name": "Knjiga Mudrosti",
+      "name_en": "Wisdom",
+      "deuterocanonical": true
+    },
+    {
+      "id": "SIR",
+      "order": 28,
+      "testament": "OT",
+      "abbr": "Sir",
+      "name": "Knjiga Sirahova",
+      "name_en": "Sirach",
+      "deuterocanonical": true
+    },
+    {
+      "id": "ISA",
+      "order": 29,
+      "testament": "OT",
+      "abbr": "Iz",
+      "name": "Izaija",
+      "name_en": "Isaiah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JER",
+      "order": 30,
+      "testament": "OT",
+      "abbr": "Jr",
+      "name": "Jeremija",
+      "name_en": "Jeremiah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "LAM",
+      "order": 31,
+      "testament": "OT",
+      "abbr": "Tuž",
+      "name": "Tužaljke",
+      "name_en": "Lamentations",
+      "deuterocanonical": false
+    },
+    {
+      "id": "BAR",
+      "order": 32,
+      "testament": "OT",
+      "abbr": "Bar",
+      "name": "Baruh",
+      "name_en": "Baruch",
+      "deuterocanonical": true
+    },
+    {
+      "id": "EZK",
+      "order": 33,
+      "testament": "OT",
+      "abbr": "Ez",
+      "name": "Ezekiel",
+      "name_en": "Ezekiel",
+      "deuterocanonical": false
+    },
+    {
+      "id": "DAN",
+      "order": 34,
+      "testament": "OT",
+      "abbr": "Dn",
+      "name": "Daniel",
+      "name_en": "Daniel",
+      "deuterocanonical": false,
+      "deuterocanonical_parts": "3,24–90; 13; 14"
+    },
+    {
+      "id": "HOS",
+      "order": 35,
+      "testament": "OT",
+      "abbr": "Hoš",
+      "name": "Hošea",
+      "name_en": "Hosea",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JOL",
+      "order": 36,
+      "testament": "OT",
+      "abbr": "Jl",
+      "name": "Joel",
+      "name_en": "Joel",
+      "deuterocanonical": false
+    },
+    {
+      "id": "AMO",
+      "order": 37,
+      "testament": "OT",
+      "abbr": "Am",
+      "name": "Amos",
+      "name_en": "Amos",
+      "deuterocanonical": false
+    },
+    {
+      "id": "OBA",
+      "order": 38,
+      "testament": "OT",
+      "abbr": "Ob",
+      "name": "Obadija",
+      "name_en": "Obadiah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JON",
+      "order": 39,
+      "testament": "OT",
+      "abbr": "Jon",
+      "name": "Jona",
+      "name_en": "Jonah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "MIC",
+      "order": 40,
+      "testament": "OT",
+      "abbr": "Mih",
+      "name": "Mihej",
+      "name_en": "Micah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "NAM",
+      "order": 41,
+      "testament": "OT",
+      "abbr": "Nah",
+      "name": "Nahum",
+      "name_en": "Nahum",
+      "deuterocanonical": false
+    },
+    {
+      "id": "HAB",
+      "order": 42,
+      "testament": "OT",
+      "abbr": "Hab",
+      "name": "Habakuk",
+      "name_en": "Habakkuk",
+      "deuterocanonical": false
+    },
+    {
+      "id": "ZEP",
+      "order": 43,
+      "testament": "OT",
+      "abbr": "Sef",
+      "name": "Sefanija",
+      "name_en": "Zephaniah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "HAG",
+      "order": 44,
+      "testament": "OT",
+      "abbr": "Hag",
+      "name": "Hagaj",
+      "name_en": "Haggai",
+      "deuterocanonical": false
+    },
+    {
+      "id": "ZEC",
+      "order": 45,
+      "testament": "OT",
+      "abbr": "Zah",
+      "name": "Zaharija",
+      "name_en": "Zechariah",
+      "deuterocanonical": false
+    },
+    {
+      "id": "MAL",
+      "order": 46,
+      "testament": "OT",
+      "abbr": "Mal",
+      "name": "Malahija",
+      "name_en": "Malachi",
+      "deuterocanonical": false
+    },
+    {
+      "id": "MAT",
+      "order": 47,
+      "testament": "NT",
+      "abbr": "Mt",
+      "name": "Evanđelje po Mateju",
+      "name_en": "Matthew",
+      "deuterocanonical": false
+    },
+    {
+      "id": "MRK",
+      "order": 48,
+      "testament": "NT",
+      "abbr": "Mk",
+      "name": "Evanđelje po Marku",
+      "name_en": "Mark",
+      "deuterocanonical": false
+    },
+    {
+      "id": "LUK",
+      "order": 49,
+      "testament": "NT",
+      "abbr": "Lk",
+      "name": "Evanđelje po Luki",
+      "name_en": "Luke",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JHN",
+      "order": 50,
+      "testament": "NT",
+      "abbr": "Iv",
+      "name": "Evanđelje po Ivanu",
+      "name_en": "John",
+      "deuterocanonical": false
+    },
+    {
+      "id": "ACT",
+      "order": 51,
+      "testament": "NT",
+      "abbr": "Dj",
+      "name": "Djela apostolska",
+      "name_en": "Acts",
+      "deuterocanonical": false
+    },
+    {
+      "id": "ROM",
+      "order": 52,
+      "testament": "NT",
+      "abbr": "Rim",
+      "name": "Poslanica Rimljanima",
+      "name_en": "Romans",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1CO",
+      "order": 53,
+      "testament": "NT",
+      "abbr": "1 Kor",
+      "name": "Prva poslanica Korinćanima",
+      "name_en": "1 Corinthians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2CO",
+      "order": 54,
+      "testament": "NT",
+      "abbr": "2 Kor",
+      "name": "Druga poslanica Korinćanima",
+      "name_en": "2 Corinthians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "GAL",
+      "order": 55,
+      "testament": "NT",
+      "abbr": "Gal",
+      "name": "Poslanica Galaćanima",
+      "name_en": "Galatians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "EPH",
+      "order": 56,
+      "testament": "NT",
+      "abbr": "Ef",
+      "name": "Poslanica Efežanima",
+      "name_en": "Ephesians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "PHP",
+      "order": 57,
+      "testament": "NT",
+      "abbr": "Fil",
+      "name": "Poslanica Filipljanima",
+      "name_en": "Philippians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "COL",
+      "order": 58,
+      "testament": "NT",
+      "abbr": "Kol",
+      "name": "Poslanica Kološanima",
+      "name_en": "Colossians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1TH",
+      "order": 59,
+      "testament": "NT",
+      "abbr": "1 Sol",
+      "name": "Prva poslanica Solunjanima",
+      "name_en": "1 Thessalonians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2TH",
+      "order": 60,
+      "testament": "NT",
+      "abbr": "2 Sol",
+      "name": "Druga poslanica Solunjanima",
+      "name_en": "2 Thessalonians",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1TI",
+      "order": 61,
+      "testament": "NT",
+      "abbr": "1 Tim",
+      "name": "Prva poslanica Timoteju",
+      "name_en": "1 Timothy",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2TI",
+      "order": 62,
+      "testament": "NT",
+      "abbr": "2 Tim",
+      "name": "Druga poslanica Timoteju",
+      "name_en": "2 Timothy",
+      "deuterocanonical": false
+    },
+    {
+      "id": "TIT",
+      "order": 63,
+      "testament": "NT",
+      "abbr": "Tit",
+      "name": "Poslanica Titu",
+      "name_en": "Titus",
+      "deuterocanonical": false
+    },
+    {
+      "id": "PHM",
+      "order": 64,
+      "testament": "NT",
+      "abbr": "Flm",
+      "name": "Poslanica Filemonu",
+      "name_en": "Philemon",
+      "deuterocanonical": false
+    },
+    {
+      "id": "HEB",
+      "order": 65,
+      "testament": "NT",
+      "abbr": "Heb",
+      "name": "Poslanica Hebrejima",
+      "name_en": "Hebrews",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JAS",
+      "order": 66,
+      "testament": "NT",
+      "abbr": "Jak",
+      "name": "Jakovljeva poslanica",
+      "name_en": "James",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1PE",
+      "order": 67,
+      "testament": "NT",
+      "abbr": "1 Pt",
+      "name": "Prva Petrova poslanica",
+      "name_en": "1 Peter",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2PE",
+      "order": 68,
+      "testament": "NT",
+      "abbr": "2 Pt",
+      "name": "Druga Petrova poslanica",
+      "name_en": "2 Peter",
+      "deuterocanonical": false
+    },
+    {
+      "id": "1JN",
+      "order": 69,
+      "testament": "NT",
+      "abbr": "1 Iv",
+      "name": "Prva Ivanova poslanica",
+      "name_en": "1 John",
+      "deuterocanonical": false
+    },
+    {
+      "id": "2JN",
+      "order": 70,
+      "testament": "NT",
+      "abbr": "2 Iv",
+      "name": "Druga Ivanova poslanica",
+      "name_en": "2 John",
+      "deuterocanonical": false
+    },
+    {
+      "id": "3JN",
+      "order": 71,
+      "testament": "NT",
+      "abbr": "3 Iv",
+      "name": "Treća Ivanova poslanica",
+      "name_en": "3 John",
+      "deuterocanonical": false
+    },
+    {
+      "id": "JUD",
+      "order": 72,
+      "testament": "NT",
+      "abbr": "Jd",
+      "name": "Poslanica Jude apostola",
+      "name_en": "Jude",
+      "deuterocanonical": false
+    },
+    {
+      "id": "REV",
+      "order": 73,
+      "testament": "NT",
+      "abbr": "Otk",
+      "name": "Otkrivenje",
+      "name_en": "Revelation",
+      "deuterocanonical": false
+    }
+  ]
+}

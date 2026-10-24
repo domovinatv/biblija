@@ -1,0 +1,23 @@
+{
+  "saric": {
+    "name": "Sveta Biblija, prijevod Ivana Ev. Šarića",
+    "first_published": "1941–1942, Sarajevo",
+    "confession": "katolički",
+    "canon": 73,
+    "source": "https://ebible.org/Scriptures/hrv_usfm.zip",
+    "source_details": "https://ebible.org/find/details.php?id=hrv",
+    "source_sha256": "828576071a6be61e7720940925f225ca3461b7a77a03f2ed9b018a9d868051a9",
+    "built": "2026-10-24",
+    "rights": "eBible i CrossWire ga označavaju kao Public Domain; Šarić je umro 1960., pa po hrvatskom i EU pravu (život + 70) tekst postaje javno dobro 1. 1. 2031. Koje je izdanje digitalizirano nije utvrđeno.",
+    "notes": [
+      "Estera: izvor ESG, grčki dodaci su dijelovi stiha s poljem 'part'.",
+      "Sirah: proslov je u polju 'intro'.",
+      "'p': true označava početak odlomka."
+    ],
+    "stats": {
+      "books": 73,
+      "chapters": 1328,
+      "verses": 35539
+    }
+  }
+}
