@@ -63,8 +63,8 @@ autorsko pravo traje 70 godina od smrti, pa izvorni tekst prelazi u javno dobro 
 Uz to se ne zna točno koje izdanje je digitalizirano. Izvor je unbound.biola.edu i
 wwwyu.com/izrada, pa bi moglo biti i revidirano izdanje sa zasebnim pravima. Posljedica:
 - lokalna, osobna, offline uporaba je u redu;
-- **javna objava repoa ili aplikacije s tim tekstom prije 2031. nosi rizik.** Repo neka zasad
-  ostane privatan, ili tekst ne commitamo nego ga skripta skida.
+- **javna objava repoa ili aplikacije s tim tekstom prije 2031. nosi rizik.** Vlasnik je
+  2026-10-24 odlučio repo ipak objaviti javno. README to navodi i nudi issue nositelju prava.
 
 ## Provjereni izvori (Šarić)
 
@@ -77,11 +77,14 @@ wwwyu.com/izrada, pa bi moglo biti i revidirano izdanje sa zasebnim pravima. Pos
 
 Brza provjera (2026-10-24, lokalno):
 - scrollmapper ima 73 knjige i **35 502** stiha, eBible USFM 73 knjige i **35 448** stihova.
-  Razliku od 54 stiha treba razjasniti.
+  *Razriješeno:* svih 54 su prazni stihovi u scrollmapper verzifikaciji.
 - Daniel ima 14 poglavlja s dodacima (13 i 14, 3,24–90). U 3. poglavlju USFM završava na
   stihu 99; očekivano je 100.
-- Estera (USFM `ESG`) ima 10 poglavlja i 167 stihova, točno koliko i hebrejski tekst.
-  **Grčki dodaci Esteri vjerojatno nedostaju.**
+- Estera (USFM `ESG`) ima 10 poglavlja i 167 `\v` oznaka, točno koliko i hebrejski tekst.
+  *Razriješeno:* grčki dodaci **postoje**, ali su unutar stihova označeni s `\vp a\vp*`,
+  `\vp 17i\vp*` itd. Build ih izdvaja u polje `part`. Izvor dvaput ponavlja slovo „a”
+  (Est 1,1 iza „q”; 3,13 iza „f”), a `\vp 1\vp*` označava povratak na sam stih.
+  Vidi `data/saric-errata.json`.
 
 ## Ciljna struktura u repou
 
@@ -163,3 +166,37 @@ Načela:
   Jeruzalemskoj Bibliji, ne nedostajući tekst.
 - Repo je javan, uz napomenu o pravima u README-u.
 - Otvoreno: SQLite i FTS (korak 5), upiti KS-u i HBD-u (korak 6), tekst HBK lekcionara.
+
+## Dodatni nalazi (2026-10-24)
+
+### Premještanja stihova
+Validator je u 7 poglavlja javljao „preskočene” stihove: 1 Sam 9, Job 36, Iz 33, Jr 29, Jr 36,
+Nah 2 i Hab 2. Ti stihovi zapravo postoje, ali stoje na drugom mjestu, kao u Jeruzalemskoj
+Bibliji (npr. Jr 29,8–9 iza 15. stiha). Build čuva tiskani redoslijed, a validator ih
+prijavljuje kao informaciju.
+
+### biblija-govori.hr nije katolička
+Stranica ne navodi izdavača. Njezina „Dopisna škola” vodi na biblijskeistine.hr, čiji
+podnožje navodi Kršćansku adventističku crkvu u RH.
+
+### KS aplikacije
+U App Storeu postoje **HR Biblija** (6,99 $, offline, <https://apps.apple.com/us/app/id505828694>)
+i **HR Biblija free** (samo iPhone, online, <https://apps.apple.com/us/app/id465471461>).
+Kontakt je `ios@ks.hr`. Na Google Playu verziju nismo našli, ali nismo ni potvrdili da je nema.
+Izvlačenje teksta iz aplikacije bilo bi isto kršenje prava kao scraping weba.
+
+### Zašto ne strojni prijevod engleske Biblije
+Razmatrali smo i odbacili LLM ili Google Translate prijevod katoličkog engleskog prijevoda:
+- NABRE, RSV-2CE i NRSV-CE su zaštićeni, a prijevod prijevoda je prerada za koju treba
+  dopuštenje. Slobodan je samo Douay-Rheims, a on je prijevod Vulgate.
+- Kan. 825 traži odobrenje crkvene vlasti, a *Liturgiam authenticam* prijevod iz izvornih
+  jezika. Takav tekst ne bi bio „službeni”.
+- Interpretacije i greške se gomilaju kroz svaki prijevod, a teološko nazivlje ne bi
+  odgovaralo lekcionaru.
+Prihvatljiv je samo kao jasno označena pomoć za osobno proučavanje.
+
+### Zašto je Zagrebačka Biblija potisnula Šarića (sažetak, nije potpuno provjereno)
+- Šarić je 1945. emigrirao, pa se njegova Biblija desetljećima tiskala uglavnom u emigraciji.
+- Drugi vatikanski koncil (*Dei Verbum* 22) potaknuo je nove prijevode iz izvornih jezika.
+- Zagrebačka Biblija izašla je 1968., a lekcionar Duda–Fućak 1969.
+Prije javne uporabe ove tvrdnje treba provjeriti na izvorima (HAZU, Hrčak).
